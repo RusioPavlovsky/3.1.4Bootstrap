@@ -125,11 +125,10 @@
                                                                     </div>
 
                                                                     <div class="mb-3">
-                                                                        <label for="edit-username"><b>First
-                                                                            Name</b></label>
+                                                                        <label for="edit-username"><b>Username</b></label>
                                                                         <input class="form-control" type="text"
                                                                                id="edit-username"
-                                                                               th:value="*{username}"
+                                                                               th:value="*{name}"
                                                                                name="username"
                                                                                placeholder="Default input">
                                                                     </div>
@@ -219,7 +218,7 @@
                                                                                 Name</b></label>
                                                                             <input class="form-control" type="text"
                                                                                    id="delete-username"
-                                                                                   th:value="*{username}"
+                                                                                   th:value="*{name}"
                                                                                    name="username"
                                                                                    placeholder="Default input" readonly>
                                                                         </div>
@@ -283,7 +282,7 @@
                                             <label for="username"
                                                    class="form-label fw-bold">Username </label>
                                             <input type="text" class="form-control" id="username"
-                                                   th:field="*{username}"
+                                                   th:field="*{name}"
                                                    required>
                                         </div>
                                         <div class="mb-3">
